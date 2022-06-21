@@ -1,11 +1,13 @@
 export default function Meme() {
   return (
     <>
-      <div className="meme--inputs_wrap">
-        <input className="meme--inputs" type="text"/>
-        <input className="meme--inputs" type="text"/>
-      </div>
-      <a className="meme--button">Get a new meme image  🖼</a>
+      <form className="form">
+        <div className="form--inputs_wrap">
+          <input className="form--input" type="text" placeholder="Top text"/>
+          <input className="form--input" type="text" placeholder="Bottom text"/>
+        </div>
+        <button className="form--button">Get a new meme image  🖼</button>
+      </form>
     </>
   );
 }

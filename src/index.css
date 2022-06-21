@@ -47,14 +47,16 @@ height: 100%;
   margin-left: auto;
 }
 
+.form{
+  margin: 30px 44px;
+}
 
-.meme--inputs_wrap{
+.form--inputs_wrap{
   display: flex;
   justify-content: center;
-  margin: 36px 36px 15px 36px;
 }
-.meme--inputs{
-  margin: 0 9px;
+
+.form--input{
   width: 100%;
   height: 35px;
   border: 1px solid #D5D4D8;
@@ -67,18 +69,31 @@ height: 100%;
   padding: 10px;
 }
 
-.meme--button{
+.form--input:first-of-type{
+  margin-right: 9px;
+}
+
+.form--input:last-of-type{
+  margin-left: 9px;
+}
+
+.form--button{
   display: block;
+  width: 100%;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  margin-top: 15px;
   line-height: 40px;
   height: 40px;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   border-radius: 5px;
-  margin: 0px 36px 36px 36px;
   font-family: 'Karla';
   font-weight: 700;
   font-size: 16px;
   text-align: center;
   letter-spacing: -0.1em;
   color: #FFFFFF;
+  cursor: pointer;
 }
