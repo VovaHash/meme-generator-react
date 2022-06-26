@@ -19,7 +19,7 @@
   height: 65px;
   display: flex;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-  padding: 20px 37px 20px 20px;
+  padding: 20px 37px 20px 37px;
   align-items: center;
 }
 
@@ -97,3 +97,4 @@ height: 100%;
   color: #FFFFFF;
   cursor: pointer;
 }
+
