@@ -8,7 +8,7 @@
 * {
   /* font-family: 'Inter', sans-serif; */
   /* font-family: 'Karla', sans-serif; */ 
-  font-family: "Impact", sans-serif;
+  /* font-family: "Impact", sans-serif; */
   font-style: normal;
   margin: 0;
   box-sizing: border-box;
@@ -96,5 +96,12 @@ height: 100%;
   letter-spacing: -0.1em;
   color: #FFFFFF;
   cursor: pointer;
+}
+
+.meme-image{
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
